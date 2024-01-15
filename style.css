@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    padding: 20px;
+    border-bottom: 1px solid ;
+}
+
+#bgColor{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: royalblue;
+    border: none;
+    padding:10px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    box-shadow: -4px -4px 8px #989898, 4px 4px 8px rgb(180, 197, 250);
+}
