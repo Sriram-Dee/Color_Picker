@@ -25,6 +25,25 @@ header{
     justify-content: center;
 }
 
+#hex{
+    width: 80px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    user-select: none;
+}
+
+.fa{
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 3px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.fa:hover{
+    background-color: #989898;
+    color: #fff;
+}
 button{
     background-color: royalblue;
     border: none;
@@ -33,5 +52,6 @@ button{
     color: #fff;
     border-radius: 5px;
     letter-spacing: 1px;
-    box-shadow: -4px -4px 8px #989898, 4px 4px 8px rgb(180, 197, 250);
+    box-shadow: -2px -2px 5px #989898, 2px 2px 5px rgb(180, 197, 250);
+    filter: hue-rotate(-90deg);
 }
